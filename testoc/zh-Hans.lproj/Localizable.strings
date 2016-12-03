@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  testoc
+
+  Created by 何锡瓒 on 16/12/3.
+  Copyright © 2016年 Davis. All rights reserved.
+*/
+"alertTitle" = "标题";
+"alertMessage" = "信息";
+"alertOk" = "确认";
+"alertOther" = "其他";

@@ -15,6 +15,8 @@
 		0D303B181DF2E7B900B0F212 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D303B161DF2E7B900B0F212 /* LaunchScreen.storyboard */; };
 		0D303B231DF2E7BA00B0F212 /* testocTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D303B221DF2E7BA00B0F212 /* testocTests.m */; };
 		0D303B2E1DF2E7BA00B0F212 /* testocUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D303B2D1DF2E7BA00B0F212 /* testocUITests.m */; };
+		0D303B3F1DF2F56700B0F212 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D303B411DF2F56700B0F212 /* InfoPlist.strings */; };
+		0D303B451DF2F63500B0F212 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D303B471DF2F63500B0F212 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,12 @@
 		0D303B291DF2E7BA00B0F212 /* testocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testocUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D303B2D1DF2E7BA00B0F212 /* testocUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testocUITests.m; sourceTree = "<group>"; };
 		0D303B2F1DF2E7BA00B0F212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D303B3D1DF2F51500B0F212 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		0D303B3E1DF2F51500B0F212 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		0D303B401DF2F56700B0F212 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		0D303B421DF2F57000B0F212 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0D303B461DF2F63500B0F212 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		0D303B481DF2F63900B0F212 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				0D303B091DF2E7B900B0F212 /* main.m */,
+				0D303B411DF2F56700B0F212 /* InfoPlist.strings */,
+				0D303B471DF2F63500B0F212 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -207,6 +217,7 @@
 				TargetAttributes = {
 					0D303B041DF2E7B900B0F212 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = YDGCTJN54V;
 					};
 					0D303B1D1DF2E7BA00B0F212 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -243,7 +254,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D303B451DF2F63500B0F212 /* Localizable.strings in Resources */,
 				0D303B181DF2E7B900B0F212 /* LaunchScreen.storyboard in Resources */,
+				0D303B3F1DF2F56700B0F212 /* InfoPlist.strings in Resources */,
 				0D303B151DF2E7B900B0F212 /* Assets.xcassets in Resources */,
 				0D303B131DF2E7B900B0F212 /* Main.storyboard in Resources */,
 			);
@@ -312,6 +325,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				0D303B121DF2E7B900B0F212 /* Base */,
+				0D303B3D1DF2F51500B0F212 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -320,8 +334,27 @@
 			isa = PBXVariantGroup;
 			children = (
 				0D303B171DF2E7B900B0F212 /* Base */,
+				0D303B3E1DF2F51500B0F212 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0D303B411DF2F56700B0F212 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D303B401DF2F56700B0F212 /* zh-Hans */,
+				0D303B421DF2F57000B0F212 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0D303B471DF2F63500B0F212 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D303B461DF2F63500B0F212 /* zh-Hans */,
+				0D303B481DF2F63900B0F212 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -413,10 +446,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = testoc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.analyticservice.testoc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -424,10 +460,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = testoc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.analyticservice.testoc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
